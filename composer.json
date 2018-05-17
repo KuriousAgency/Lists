@@ -4,8 +4,8 @@
 	"type": "craft-plugin",
 	"keywords": ["craft", "cms", "craftcms", "craft-plugin", "lists"],
 	"support": {
-		"docs": "https://github.com/KuriousAgency/lists/blob/master/README.md",
-		"issues": "https://github.com/KuriousAgency/lists/issues"
+		"docs": "https://github.com/kuriousagency/lists/blob/master/README.md",
+		"issues": "https://github.com/kuriousagency/lists/issues"
 	},
 	"license": "MIT",
 	"authors": [
@@ -27,7 +27,7 @@
 		"handle": "lists",
 		"hasCpSettings": false,
 		"hasCpSection": false,
-		"changelogUrl": "https://raw.githubusercontent.com/KuriousAgency/lists/master/CHANGELOG.md",
+		"changelogUrl": "https://raw.githubusercontent.com/kuriousagency/lists/master/CHANGELOG.md",
 		"components": {
 			"items": "kuriousagency\\lists\\services\\Items",
 			"lists": "kuriousagency\\lists\\services\\ItemLists"
