@@ -35,6 +35,10 @@ class ListsVariable
 			//$userId = $user->id;
 			$userId = Craft::$app->getUser()->id;
 		}
+
+		if(!$userId){
+			return null;
+		}
 		
 		$list = Plugin::$app->lists->getListsByType('favourites', $userId);
 
@@ -55,11 +59,19 @@ class ListsVariable
 
 	public function getWishlists($userId)
 	{
+		if(!$userId){
+			return null;
+		}
+		
 		return Plugin::$app->lists->getListsByType('wishlists', $userId);
 	}
 
 	public function getLists($type, $userId)
 	{
+		if(!$userId){
+			return null;
+		}
+		
 		return Plugin::$app->lists->getListsByType($type, $userId);
 	}
 
@@ -72,6 +84,10 @@ class ListsVariable
 	{
 		if(!$userId){
 			$userId = Craft::$app->getUser()->id;
+		}
+
+		if(!$userId){
+			return null;
 		}
 
 		$list = Plugin::$app->lists->getListsByType($listType, $userId);
