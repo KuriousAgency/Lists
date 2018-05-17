@@ -1,25 +1,20 @@
 {
 	"name": "kuriousagency/lists",
-	"description": "Allow users to add elements to a list: Product Favourites, Wishlists, Bookmarks, etc.",
+	"description":
+		"Allow users to add elements to a list: Product Favourites, Wishlists, Bookmarks, etc.",
 	"type": "craft-plugin",
-	"minimum-stability": "dev",
-	"version": "0.0.1",
-	"keywords": [
-		"craft",
-		"cms",
-		"craftcms",
-		"craft-plugin",
-		"lists"
-	],
+	"keywords": ["craft", "cms", "craftcms", "craft-plugin", "lists"],
 	"support": {
 		"docs": "https://github.com/KuriousAgency/lists/blob/master/README.md",
 		"issues": "https://github.com/KuriousAgency/lists/issues"
 	},
 	"license": "MIT",
-	"authors": [{
-		"name": "Kurious Agency",
-		"homepage": "https://kurious.agency"
-	}],
+	"authors": [
+		{
+			"name": "Kurious Agency",
+			"homepage": "https://kurious.agency"
+		}
+	],
 	"require": {
 		"craftcms/cms": "^3.0.0-RC1"
 	},
@@ -33,7 +28,8 @@
 		"handle": "lists",
 		"hasCpSettings": false,
 		"hasCpSection": false,
-		"changelogUrl": "https://raw.githubusercontent.com/KuriousAgency/lists/master/CHANGELOG.md",
+		"changelogUrl":
+			"https://raw.githubusercontent.com/KuriousAgency/lists/master/CHANGELOG.md",
 		"components": {
 			"items": "kuriousagency\\lists\\services\\Items",
 			"lists": "kuriousagency\\lists\\services\\ItemLists"
