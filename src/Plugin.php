@@ -31,7 +31,7 @@ use yii\base\Event;
  *
  * @author    Kurious Agency
  * @package   Lists
- * @since     0.0.1
+ * @since     1.0.0
  *
  * @property  ItemsService $items
  * @property  ItemListsService $lists
